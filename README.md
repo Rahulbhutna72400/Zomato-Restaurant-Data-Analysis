@@ -5,7 +5,7 @@ This project focuses on analyzing Zomato restaurant data using **MySQL, Tableau,
 ## 📌 Project Overview  
 The goal of this project is to perform an in-depth analysis of Zomato's restaurant data to understand market trends, customer preferences, and business performance. It involves:  
 - **Data Cleaning & Transformation** using **SQL**  
-- **Interactive Visualizations** using **Tableau & Power BI**  
+- **Interactive Visualizations** using **Tableau**  
 - **Statistical Insights** on restaurant ratings, pricing, and customer engagement  
 
 ---
@@ -37,29 +37,28 @@ The dataset includes information on restaurants across different cities and coun
 
 - **SQL (MySQL)** – Data extraction, transformation, and querying  
 - **Excel** – Preliminary data cleaning and summary analysis  
-- **Tableau & Power BI** – Interactive dashboards for visualization  
+- **Tableau** – Interactive dashboards for visualization  
 - **Python (optional)** – Additional data manipulation and exploration  
 
 ---
 
 ## 📂 Project Structure  
 📦 Zomato-Restaurant-Data-Analysis
-├── 📁 SQL
-│   ├── 📄 data_dump.sql                   # Raw dataset for Zomato restaurant analysis
-│   ├── 📄 SQL_scripts.sql                 # SQL queries for data transformation and insights
-│
-├── 📁 Excel_Analysis
-│   ├── 📄 zomato_data.xlsx                 # Raw dataset in Excel format
-│   ├── 📄 zomato_restaurants_analysis.xlsx # Excel-based analysis and visualizations
-│
-├── 📁 Dashboards
-│   ├── 📄 Zomato_Restaurants_Tableau.twbx  # Tableau dashboard
-│   ├── 📄 Zomato_Restaurants_PowerBI.pbix  # Power BI dashboard
-│
-├── 📁 Documentation
-│   ├── 📄 Zomato_Objectives.txt            # Key objectives and planned KPIs
-│
-├── 📄 README.md                            # Project documentation
+- ├── 📁 SQL
+- │   ├── 📄 data_dump.sql                   # Raw dataset for Zomato restaurant analysis
+- │   ├── 📄 SQL_scripts.sql                 # SQL queries for data transformation and insights
+- │
+- ├── 📁 Excel_Analysis
+- │   ├── 📄 zomato_data.xlsx                 # Raw dataset in Excel format
+- │   ├── 📄 zomato_restaurants_analysis.xlsx # Excel-based analysis and visualizations
+- │
+- ├── 📁 Dashboards
+- │   ├── 📄 Zomato_Restaurants_Tableau.twbx  # Tableau dashboard
+- │
+- ├── 📁 Documentation
+- │   ├── 📄 Zomato_Objectives.txt            # Key objectives and planned KPIs
+- │
+- ├── 📄 README.md                            # Project documentation
 
 ---
 
@@ -77,7 +76,7 @@ The dataset includes information on restaurants across different cities and coun
 
 1. **Load the SQL scripts** (`data_dump.sql` & `SQL_scripts.sql`) in **MySQL** to recreate the database.  
 2. **Use Excel** (`zomato_data.xlsx`) for basic data exploration and filtering.  
-3. **Open Tableau & Power BI files** to explore interactive visualizations.  
+3. **Open Tableau files** to explore interactive visualizations.  
 4. **Modify SQL Queries** to perform custom analysis based on business needs.  
 
 ---
